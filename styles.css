@@ -1,0 +1,38 @@
+html,
+body {
+  min-height: 100%;
+}
+
+.bg-image {
+  min-height: 100vh;
+  padding-top: auto;
+  background-image: url("images/BG/MilkywayBG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f8fafc;
+}
+
+.bg-image .navbar-brand,
+.bg-image .navbar-nav .btn,
+.bg-image .lead,
+.bg-image .display-5 {
+  position: relative;
+  z-index: 1;
+}
+ .btn {
+  opacity: 1;
+  
+  
+ }
+ .text{
+  outline: 1px solid #000;
+ }
+
+ .card {
+  
+  border: white 1px solid;
+ }
+ .container {
+  border: white;
+ }
